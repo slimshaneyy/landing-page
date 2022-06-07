@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "roboto", "times new roman", sans-serif;
 }
 .header {
     display: flex;
@@ -70,4 +71,32 @@ h3 {
     border: none;
     color: #F9FAF8;
     padding: 3px 8px 3px 8px;
+}
+
+.block2 {
+    height: 350px;
+}
+.block2 h3 {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.images {
+    max-width: 110px;
+}
+
+.cube {
+    border-style: solid;
+    border-color: #3882F6;
+    height: 110px;
+    border-radius: 12px;
 }
