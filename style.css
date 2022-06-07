@@ -1,11 +1,13 @@
 .header {
     display: flex;
     margin: 10px 68px;
+    flex-wrap: wrap;
 }
 
 .header_links {
     display: flex;
     justify-content: end;
     flex: 1;
+    gap: 10px;
     
 }
