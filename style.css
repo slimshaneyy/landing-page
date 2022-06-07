@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    margin: 10px 68px;
+}
+
+.header_links {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    
+}
