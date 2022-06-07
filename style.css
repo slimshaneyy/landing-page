@@ -46,9 +46,6 @@ body {
     max-width: 350px;
 }
 
-.header_left .button {
-    flex: 0;
-}
 .header_right {
     background-color: slategray;
     margin-left: auto;
@@ -123,4 +120,41 @@ h3 {
     justify-content: flex-end;
     font-style: normal;
     font-size: smaller;
+}
+
+.block4 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.block4content {
+    display: flex;
+    background-color: #3882F6;
+    padding: 25px 70px;
+    border-radius: 8px;
+    gap: 70px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+}
+
+.block4 button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    color: #F9FAF8;
+    padding: 3px 25px;
+    max-height: 30px;
+
 }
